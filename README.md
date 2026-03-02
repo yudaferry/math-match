@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Math Match
+
+A minimal, tool-like web application for children ages 4–12 to practice basic arithmetic operations. Built with love to help my daughter learn basic math calculation.
+
+## About
+
+This app was created based on the structure and methodology from private math tutoring materials. It provides focused arithmetic practice without distractions — no accounts, no scores, no levels.
+
+## Features
+
+- **Customizable Practice Sessions**: Choose operations (Addition, Subtraction, Multiplication, Division)
+- **Flexible Number Ranges**: Set minimum and maximum numbers (0–999)
+- **Smart Validation**: Option to allow/disallow negative results and division remainders
+- **Timer Modes**: Stopwatch, countdown per question, or total session timer
+- **Responsive Design**: Works on smartphones, tablets, and desktops
+- **Offline Support**: PWA functionality for practice anywhere
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) 16
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **UI**: React 19
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Configure your practice session (operations, question count, number range, timer)
+2. Answer questions one by one using the on-screen numpad
+3. Review your results at the end of the session
+4. Start a new session or adjust configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+src/
+├── app/          # Next.js app directory (pages & layout)
+├── lib/          # Utility functions and types
+│   ├── generate.ts   # Question generation logic
+│   └── types.ts      # TypeScript type definitions
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Language
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Interface is in **Indonesian (Bahasa Indonesia)** to match the original learning materials.
