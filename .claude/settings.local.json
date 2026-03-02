@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "WebFetch(domain:pierce-lamb.medium.com)",
+      "WebFetch(domain:www.nathanfox.net)",
+      "WebFetch(domain:benenewton.com)",
+      "WebFetch(domain:venturebeat.com)",
+      "WebFetch(domain:claudefa.st)",
+      "WebFetch(domain:serwist.pages.dev)"
+    ]
+  }
+}
