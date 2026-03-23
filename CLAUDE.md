@@ -3,9 +3,9 @@
 ## Commands
 
 ```bash
-npm run dev      # start dev server (Turbopack, localhost:3000)
-npm run build    # production build
-npm run lint     # run ESLint
+pnpm dev         # start dev server (Turbopack, localhost:3000)
+pnpm build       # production build
+pnpm lint        # run ESLint
 ```
 
 ## Project

@@ -41,6 +41,7 @@ Math Match is a Next.js 16 + TypeScript + Tailwind CSS v4 + PWA web app for prac
 |-------|------|-------|-------|
 | 1 | [phase-1-setup.md](./phase-1-setup.md) | 1–2 | Project initialization & scaffold cleanup |
 | 2 | [phase-2-core-logic.md](./phase-2-core-logic.md) | 3–4 | TypeScript types & question generation |
+| 2b | [phase-2b-local-env.md](./phase-2b-local-env.md) | 2b | Local dev environment (Docker or Nix) |
 | 3 | [phase-3-state-components.md](./phase-3-state-components.md) | 5–6 | Zustand store & shared UI components |
 | 4 | [phase-4-pages.md](./phase-4-pages.md) | 7–11 | All screens (Config, Question, Result) |
 | 5 | [phase-5-pwa-deploy.md](./phase-5-pwa-deploy.md) | 12–13 | PWA setup & Vercel deployment |
@@ -58,7 +59,8 @@ Math Match is a Next.js 16 + TypeScript + Tailwind CSS v4 + PWA web app for prac
 ## Current Status
 - [x] Phase 1 — Project Setup ✅
 - [x] Phase 2 — Core Logic ✅
-- [ ] Phase 3 — State & Components ← next
+- [ ] Phase 2b — Local Dev Environment (Docker or Nix) ← next
+- [ ] Phase 3 — State & Components
 - [ ] Phase 4 — Pages
 - [ ] Phase 5 — PWA & Deploy
 
