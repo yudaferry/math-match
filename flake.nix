@@ -17,13 +17,32 @@
       {
         devShells.default = pkgs.mkShell {
           packages = [
+            pkgs.git
+          ];
+        };
+
+        devShells.bun = pkgs.mkShell {
+          packages = [
+            pkgs.bun
+          ];
+
+          
+
+          shellHook = ''
+            echo "Welcome to Math Match development shell (bun)!"
+            echo "Use 'bun dev' to start the development server"
+          '';
+
+        };
+
+        devShells.node = pkgs.mkShell {
+          packages = [
             pkgs.nodejs_20
             pkgs.pnpm
-            pkgs.git
           ];
 
           shellHook = ''
-            echo "Welcome to Math Match development shell !"
+            echo "Welcome to Math Match development shell (nodejs)!"
             echo "Use 'pnpm dev' to start the development server"
           '';
         };
